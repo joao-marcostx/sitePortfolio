@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/pz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.conteiner{
+    max-width: 1280px;
+    margin: auto;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding: 0;
+    height: 50px;
+    
+}
+header{
+    width: 100%;
+    padding: 35px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header.rolagem{
+    background-image: url(img/pz.jpg); 
+    padding: 10px 4%
+    
+    
+
+}
+header.rolagem a{
+    color: #AACD06;
+
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: #2480ad;
+    text-decoration: none;
+}
+.banner{
+    height: 100vh;
+    flex-direction: column;   
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+
+}
+.banner h1{
+    font-size: 4em;
+   
+}
+.banner h1 span{
+    color: aliceblue;
+    text-align: center;
+}
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #414E61;
+    color: aliceblue;
+    transition: 2s;
+    border: #ffff;
+}
+.footer{
+   height: 350px;
+   width: 100%;
+   background-color: #0d1d25;
+   display: flex;
+}
+.btn{
+    
+    width: 150px;    
+    height: 50px;
+    background-color: #ffff;
+}
+.footer-list{
+    align-items: center;
+}
+
+
+
+
+
+
